@@ -16,4 +16,42 @@ public class Course {
         this.durationInWeeks = durationInWeeks;
         this.active = active;
     }
+
+    //Public Getters
+    public int getId() {
+        return id;
+    }
+
+    public String getCourseName() {
+        return courseName;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public int getDurationInWeeks() {
+        return durationInWeeks;
+    }
+
+    public boolean isActive() {
+        return active;
+    }
+
+    //Public Setters
+    public void setActive(boolean active) {
+        this.active = active;
+    }
+
+    public void setCourseName(String courseName) {
+        this.courseName = courseName;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    public void setDurationInWeeks(int durationInWeeks) {
+        this.durationInWeeks = durationInWeeks;
+    }
 }

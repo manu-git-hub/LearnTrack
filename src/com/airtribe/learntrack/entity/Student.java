@@ -18,6 +18,24 @@ public class Student extends Person {
         this.active = true;
     }
 
+    //Public Getters
+    public String getBatch() {
+        return batch;
+    }
+
+    public boolean isActive() {
+        return active;
+    }
+
+    //Public Setters
+    public void setBatch(String batch) {
+        this.batch = batch;
+    }
+
+    public void setActive(boolean active) {
+        this.active = active;
+    }
+
     // Polymorphism: Method overriding to customize the display name for a Student
     public String getDisplayName() {
         return "Student: " + super.getDisplayName() + " (Batch " + batch + ")";
