@@ -40,4 +40,8 @@ public class Student extends Person {
     public String getDisplayName() {
         return "Student: " + super.getDisplayName() + " (Batch " + batch + ")";
     }
+
+    public String toString() {
+        return "Student [id=" + getId() + ", firstName=" + getFirstName() + ", lastName=" + getLastName() + ", email=" + getEmail() + ", batch=" + batch + ", active=" + active + "]";
+    }
 }
