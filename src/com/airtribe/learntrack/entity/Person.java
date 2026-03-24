@@ -11,8 +11,8 @@ public class Person {
     // Parameterized constructor
     public Person(int id, String firstName, String lastName, String email) {
         this.id = id;
-        this.firstName = "Manu";
-        this.lastName = "S";
+        this.firstName = firstName;
+        this.lastName = lastName;
         this.email = email;
     }
 
