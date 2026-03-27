@@ -17,7 +17,7 @@ import java.util.List;
 import java.util.Scanner;
 
 public class Main {
-    private static final Scanner scanner = new Scanner(System.in);
+    private static Scanner scanner = new Scanner(System.in);
 
     // Initialize Repositories
     private static StudentRepository studentRepo = new StudentRepository();
