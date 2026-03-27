@@ -17,7 +17,7 @@ import java.util.List;
 import java.util.Scanner;
 
 public class Main {
-    private static Scanner scanner = new Scanner(System.in);
+    private static final Scanner scanner = new Scanner(System.in);
 
     // Initialize Repositories
     private static StudentRepository studentRepo = new StudentRepository();
@@ -41,6 +41,7 @@ public class Main {
             System.out.println(MenuOptions.MAIN_MANAGE_COURSES + ". Manage Courses");
             System.out.println(MenuOptions.MAIN_MANAGE_ENROLLMENTS + ". Manage Enrollments");
             System.out.println(MenuOptions.MAIN_EXIT + ". Exit");
+            System.out.println(AppConstants.DIVIDER);
             System.out.print("Select an option: ");
 
             try {
